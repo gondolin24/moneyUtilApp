@@ -22,40 +22,45 @@
 
     <include layout="@layout/content_main" />
 
-
-
-
-
-
     <TableLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|center"
-        android:stretchColumns="1">
+        android:stretchColumns="2">
 
         <TableRow>
 
 
             <android.support.design.widget.FloatingActionButton
-                android:backgroundTint="#68829E"
+                android:backgroundTint="#DE7A22"
+                android:background="#000000"
                 android:id="@+id/minus"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="bottom|left"
                 android:layout_margin="@dimen/fab_margin"
-                app:srcCompat="@android:drawable/ic_media_pause" />
+                app:srcCompat="@android:drawable/ic_popup_sync" />
 
 
 
             <android.support.design.widget.FloatingActionButton
-                android:backgroundTint="#AEBD38"
+                android:backgroundTint="#6AB187"
                 android:id="@+id/add"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="bottom|left"
                 android:layout_margin="@dimen/fab_margin"
-                app:srcCompat="@android:drawable/ic_lock_power_off" />
+                app:srcCompat="@android:drawable/ic_popup_sync" />
 
+            <android.support.design.widget.FloatingActionButton
+                android:backgroundTint="#68829E"
+                android:background="#000000"
+                android:id="@+id/DayInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|left"
+                android:layout_margin="@dimen/fab_margin"
+                app:srcCompat="@android:drawable/ic_dialog_info" />
         </TableRow>
 
 
